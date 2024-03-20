@@ -47,6 +47,79 @@ export class RecipesService {
         'vanilla extract',
       ],
     },
+    {
+      id: '123456789NasiTomato',
+      title: 'Nasi Tomato',
+      imageUrl: 'assets/recipes/nasi-tomato.jpg',
+      ingredient: [
+        'basmati rice',
+        'chicken',
+        'coconut oil',
+        'tomato paste',
+        'coconut milk',
+        'tomatoes',
+        'cinnamon stick',
+        'star anise',
+        'cloves',
+        'cardamom',
+        'pandan leaves',
+        'onion',
+        'garlic',
+        'mushroom/garlic powder',
+        'sugar',
+        'salt'
+      ],
+    },
+    {
+      id: '123456789Lasagna',
+      title: 'Baked Lasagna',
+      imageUrl: 'assets/recipes/lasagna.jpg',
+      ingredient: [
+        'lasagna noodles',
+        'mozzarella cheese',
+        'parmesan cheese',
+        'lean ground beef',
+        'onion',
+        'garlic',
+        'Tomato pasta sauce',
+        'Italian seasoning',
+        'ricotta cheese',
+        'parsley'
+      ],
+    },
+    {
+      id: '123456789FettuccineAlfredo',
+      title: 'Fettuccine Alfredo',
+      imageUrl: 'assets/recipes/fettuccine-alfredo.jpg',
+      ingredient: [
+        'Fettuccine Pasta',
+        'Butter',
+        'Garlic',
+        'Heavy Cream',
+        'Salt',
+        'Shredded Parmesan Cheese',
+        'Pepper',
+        'Parsley'
+      ],
+    },
+    {
+      id: '123456789NasiGorengKG',
+      title: 'Nasi Goreng Kampung',
+      imageUrl: 'assets/recipes/nasi-goreng-kg.jpg',
+      ingredient: [
+        'onion',
+        'shallot',
+        'garlic',
+        'birds eye chilli',
+        'dried anchovies',
+        'cooking oil',
+        'long beans',
+        'water convolvulus',
+        'cooked rice',
+        'eggs',
+        'salt'
+      ],
+    },
   ];
   constructor() {}
 
